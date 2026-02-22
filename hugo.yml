@@ -1,6 +1,6 @@
 baseURL: "https://schwabacher.me/"
 title: "Schwabacher"
-theme: "PaperMod"
+theme: ["PaperMod"]
 
 # Critical: This allows the Formspree HTML contact block to render securely on your homepage
 markup:
