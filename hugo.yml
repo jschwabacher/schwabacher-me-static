@@ -1,4 +1,5 @@
 baseURL: "https://schwabacher.me/"
+relativeURLs: true
 title: "Schwabacher"
 theme: ["PaperMod"]
 
