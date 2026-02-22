@@ -1,0 +1,25 @@
+baseURL: "https://schwabacher.me/"
+title: "Schwabacher"
+theme: "PaperMod"
+
+# Critical: This allows the Formspree HTML contact block to render securely on your homepage
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  env: production
+  author: "Schwabacher"
+  defaultTheme: auto # Respects the visitor's system preference (Dark/Light mode)
+  disableThemeToggle: false # Allows visitors to manually toggle Dark/Light mode
+  
+  # Disabling blog-specific metadata for a cleaner executive look
+  ShowShareButtons: false 
+  ShowReadingTime: false
+  ShowWordCount: false
+  ShowPostNavLinks: false
+  
+  # Ensuring the site functions as a standard page rather than a "Profile Mode" layout
+  profileMode:
+    enabled: false
